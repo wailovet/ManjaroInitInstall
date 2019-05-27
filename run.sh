@@ -14,6 +14,8 @@ echo export QT_IM_MODULE=fcitx >>  ~/.xprofile
 echo export 'XMODIFIERS="@im=fcitx"' >>  ~/.xprofile
 
 yay -S --noconfirm google-chrome
+sudo pacman -R --noconfirm  firefox
+
 
 yay -S --noconfirm filezilla
 
@@ -27,3 +29,5 @@ echo export GOPATH=$(go env GOPATH) >> ~/.profile
 
 go get -v github.com/wailovet/cmdgui
 go install github.com/wailovet/cmdgui
+
+
