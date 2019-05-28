@@ -30,4 +30,6 @@ echo export GOPATH=$(go env GOPATH) >> ~/.profile
 go get -v github.com/wailovet/cmdgui
 go install github.com/wailovet/cmdgui
 
+#echo "keysym Super_L = Caps_Lock" >> ~/.Xmodmap
+
 
